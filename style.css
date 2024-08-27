@@ -1,0 +1,115 @@
+.vector-icon {
+    width: 170px;
+    position: relative;
+    height: 164px;
+}
+.image-14-icon {
+    width: 377.5px;
+    position: relative;
+    height: 366.5px;
+    object-fit: cover;
+}
+.image-14-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 48px;
+    margin-top: -124px;
+}
+.vector-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.ipangua {
+    position: relative;
+}
+.fearrow-up-icon {
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    background-color: rgb(44, 63, 78);
+}
+.fearrow-up-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.ipangua-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 22px 8px 48px;
+}
+.frame-group {
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.encontro-nacional-de {
+    align-self: stretch;
+    position: relative;
+    font-size: 24px;
+    font-weight: 800;
+}
+.o-encontro-acontecer {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.saiba-mais {
+    position: relative;
+    font-weight: 600;
+}
+.saiba-mais-wrapper {
+    background-color: #4e5d69;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 24px;
+    color: #dee2ec;
+}
+.encontro-nacional-de-economia-parent {
+    width: 581.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    font-size: 16px;
+}
+.frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.section {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 82px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 20px;
+    color: #4e5d69;
+    font-family: Raleway;
+}
+
