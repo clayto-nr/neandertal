@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 html, body {
-    height: 100%;
     font-family: "Raleway", sans-serif;
-
 }
 
-:root{
+:root {
     --vermelho: #EB5151;
     --gray100: #98a0a9;
     --gray200: #4E5D69;
-
+    --gray300: #DEE2EC;
+    --azul2: #69879F;
 }
 
-h2{
+h2 {
     color: var(--vermelho);
     font-size: 2rem;
     font-weight: 800;
 }
 
-h4{
+h4 {
     color: var(--gray200);
     font-size: 1.25rem;
     font-style: normal;
@@ -33,10 +32,34 @@ h4{
     line-height: normal;
 }
 
-h5{
+.medium{
+    color: var(--gray300);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h5 {
     color: var(--gray100);
     font-size: 1.125rem;
     font-weight: 600;
+}
+
+h6{
+    color: var(--gray100);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: var(--gray300);
 }
 
 button {
@@ -48,31 +71,31 @@ button {
 
 .container {
     display: flex;
-    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
     align-items: center;
-    height: 100%;
-    padding: 8px; 
+    margin: 24px;
 }
 
-section{
+section {
     display: flex;
     width: 100%;
     height: 100%;
-    padding: 5.125rem 0rem;
+    padding: 5.125rem 0;
     flex-direction: column;
     align-items: flex-start;
     gap: 5rem;
     max-width: 79.75rem;
 }
 
-
-.texts{
+.texts {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.cards{
+.cards {
     display: flex;
     align-items: center;
     align-content: center;
@@ -82,7 +105,7 @@ section{
     width: 100%;
 }
 
-.card{
+.card {
     display: flex;
     width: 25.75rem;
     height: 16.125rem;
@@ -93,24 +116,25 @@ section{
     align-items: flex-start;
     gap: 2.5rem;
     border-left: 1px solid #98a0a97b;
-    span{
-        color: var(--gray200);
-        font-size: 4rem;
-        font-weight: 600;
-    }
 }
 
-.hrs{
+.card span {
+    color: var(--gray200);
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.hrs {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
 }
 
-.primary{
+.primary {
     margin-left: auto;
     display: flex;
-    padding: 0.125rem 0rem;
+    padding: 0.125rem 0;
     align-items: center;
     gap: 8px;
     color: var(--vermelho);
@@ -118,4 +142,125 @@ section{
     font-weight: 700;
     padding: 0.125rem 0.5rem;
     border-bottom: 2px solid var(--vermelho);
+}
+
+
+
+
+
+
+
+.infinito{
+    background: linear-gradient(83deg, #131A22 7.58%, #2F3E51 93.93%);
+    box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h2{
+        color: var(--azul2);
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 5rem;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.title_new{
+    display: flex;
+    max-width: 33.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.item_title{
+    width: 4.1875rem;
+    height: 0.3125rem;
+    background-color: #F9B900;
+}
+
+.news_primary{
+    display: flex;
+    width: 33.75rem;
+    max-width: 33.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.info_primary{
+    display: flex;
+    width: 33.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.outras_new{
+    display: flex;
+    max-width: 32.5rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.5rem;
+}
+
+.new{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    align-self: stretch;
+    
+}
+
+.top_new{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    span{
+        display: flex;
+        padding: 0.5rem 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border: 1px solid var(--gray100);
+        color: var(--gray100);
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+}
+
+.secundario{
+    display: flex;
+    padding: 0.75rem 3rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border: 1px solid var(--amarelo, #F9B900);
+    color: var(--amarelo, #F9B900);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.secundario:hover{
+    background-color: #F9B900;
+    color: var(--gray300);
 }
