@@ -6,8 +6,10 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: "Raleway", sans-serif;
+    width: 100%;
 }
 
 :root {
@@ -32,11 +34,11 @@ h4 {
     line-height: normal;
 }
 
-.extrabold{
+.extrabold {
     font-weight: 800;
 }
 
-.medium{
+.medium {
     color: var(--gray300);
     font-size: 1.25rem;
     font-style: normal;
@@ -50,7 +52,7 @@ h5 {
     font-weight: 600;
 }
 
-h6{
+h6 {
     color: var(--gray100);
     font-size: 0.875rem;
     font-style: normal;
@@ -58,7 +60,7 @@ h6{
     line-height: normal;
 }
 
-p{
+p {
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
@@ -154,7 +156,7 @@ section {
 
 @media (max-width: 1200px) {
 
-    .section  {
+    .section {
         padding: 20px;
     }
 }
@@ -162,13 +164,14 @@ section {
 
 
 
-.infinito{
+.infinito {
     background: linear-gradient(83deg, #131A22 7.58%, #2F3E51 93.93%);
     box-shadow: 0px 24px 32px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
     display: flex;
     justify-content: center;
-    h2{
+
+    h2 {
         color: var(--azul2);
         font-size: 2rem;
         font-style: normal;
@@ -177,7 +180,7 @@ section {
     }
 }
 
-.news{
+.news {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -187,7 +190,7 @@ section {
     flex-wrap: wrap;
 }
 
-.title_new{
+.title_new {
     display: flex;
     max-width: 33.75rem;
     flex-direction: column;
@@ -195,13 +198,13 @@ section {
     gap: 0.5rem;
 }
 
-.item_title{
+.item_title {
     width: 4.1875rem;
     height: 0.3125rem;
     background-color: #F9B900;
 }
 
-.news_primary{
+.news_primary {
     display: flex;
     width: 33.75rem;
     max-width: 33.75rem;
@@ -210,7 +213,7 @@ section {
     gap: 3rem;
 }
 
-.info_primary{
+.info_primary {
     display: flex;
     width: 33.75rem;
     flex-direction: column;
@@ -219,7 +222,7 @@ section {
     width: 100%;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -227,7 +230,7 @@ section {
     align-self: stretch;
 }
 
-.outras_new{
+.outras_new {
     display: flex;
     max-width: 32.5rem;
     flex-direction: column;
@@ -235,20 +238,21 @@ section {
     gap: 1.5rem;
 }
 
-.new{
+.new {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1.25rem;
     align-self: stretch;
-    
+
 }
 
-.top_new{
+.top_new {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    span{
+
+    span {
         display: flex;
         padding: 0.5rem 1rem;
         justify-content: center;
@@ -261,7 +265,7 @@ section {
     }
 }
 
-.secundario{
+.secundario {
     display: flex;
     padding: 0.75rem 3rem;
     justify-content: center;
@@ -273,7 +277,7 @@ section {
     font-weight: 600;
 }
 
-.secundario:hover{
+.secundario:hover {
     background-color: #F9B900;
     color: var(--gray300);
 }
@@ -281,22 +285,22 @@ section {
 
 
 
-.frame-parent{
+.frame-parent {
     width: 100%;
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
 
-.button-one{
+.button-one {
     padding: 8px;
-    background-color:var(--gray200) ;
+    background-color: var(--gray200);
     color: var(--gray300);
     font-weight: 500;
     font-size: 16px;
 }
 
-.event-details{
+.event-details {
     display: flex;
     max-width: 600px;
     flex-direction: column;
@@ -304,19 +308,19 @@ section {
     gap: 32px;
 }
 
-.arrows-container{
+.arrows-container {
     display: flex;
     align-items: center;
     gap: 24px;
     align-self: stretch;
-    
-    .direita{
+
+    .direita {
         transform: rotate(180deg);
         display: flex;
     }
 }
 
-.arrow-icon{
+.arrow-icon {
     display: flex;
     padding: 14px 11px;
     flex-direction: column;
@@ -326,11 +330,72 @@ section {
 
     background: var(--gray200);
 
-    
+
 }
 
-.ipangua-container{
+.ipangua-container {
     display: flex;
     justify-content: space-between;
     max-width: 80%;
+}
+
+/*--------------------- convidados -----------------------*/
+
+.convidados {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.convidados h2 {
+    color: #000;
+    margin-top: 70px;
+    display: inline-block;
+    padding-bottom: 0.8%;
+    border-bottom: 2px solid var(--vermelho);
+    text-align: center;
+}
+
+.convidados .images {
+    display: inline-block;
+    width: 90%;
+    margin-top: 80px;
+}
+
+.convidados .images figure {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin-left: 3%;
+}
+
+.convidados .images figure img {
+    width: 100%;
+    height: auto;
+}
+
+.convidados .images figure div {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    text-align: left;
+}
+
+.convidados .images figure div h3 {
+    color: #f00;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.convidados .images figure div p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
