@@ -161,6 +161,94 @@ section {
     }
 }
 
+/*------------------------------first----------------------------*/
+
+.first {
+    display: inline-block;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+header {
+    display: block;
+    width: 100%;
+    top: 0;
+}
+
+header figure {
+    display: inline;
+    float: left;
+}
+
+header figure img {
+    width: 280px;
+    height: auto;
+}
+
+header .links {
+    display: inline;
+    float: right;
+}
+
+header .links nav ul {
+    list-style: none;
+}
+
+header .links nav ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+header .links nav ul li a {
+    color: #8D99A5;
+    /* H4 - MEDIUM */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+header .links nav ul li .btn-header {
+    padding: 12px 48px;
+    display: block;
+    background: #F9B900;
+
+    color: #202D3D;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.important {
+    background: #FDE9C6;
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.important p {
+    color: rgba(52, 65, 76, 0.93);
+    font-family: Raleway;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
