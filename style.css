@@ -20,6 +20,14 @@ body {
     --azul2: #69879F;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 h2 {
     color: var(--vermelho);
     font-size: 2rem;
@@ -163,46 +171,56 @@ section {
 
 /*------------------------------first----------------------------*/
 
-.first {
-    display: inline-block;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    padding: 0;
-}
-
 header {
     display: block;
     width: 100%;
     top: 0;
 }
 
-header figure {
+header .content {
+    padding: 0px 82px;
+}
+
+header .content figure {
     display: inline;
     float: left;
 }
 
-header figure img {
+header .content figure img {
     width: 280px;
     height: auto;
 }
 
-header .links {
-    display: inline;
+header .content .links {
     float: right;
+    display: block;
+    width: auto;
+    height: 45px;
+    text-align: center;
 }
 
-header .links nav ul {
-    list-style: none;
+header .links nav, ul {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 header .links nav ul li {
     float: left;
-    margin-left: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 header .links nav ul li a {
     color: #8D99A5;
+    display: block;
+    margin: 0;
+    padding: 12px 0;
+    margin-left: 34px;
+    text-align: center;
+
     /* H4 - MEDIUM */
     font-family: Raleway;
     font-size: 20px;
@@ -214,11 +232,12 @@ header .links nav ul li a {
 header .links nav ul li .btn-header {
     padding: 12px 48px;
     display: block;
+    text-align: center;
     background: #F9B900;
 
     color: #202D3D;
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -232,6 +251,7 @@ header .links nav ul li .btn-header {
 }
 
 .important p {
+    text-align: center;
     color: rgba(52, 65, 76, 0.93);
     font-family: Raleway;
     font-size: 17px;
@@ -240,8 +260,117 @@ header .links nav ul li .btn-header {
     line-height: normal;
 }
 
+.first {
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0.2, 0.7), rgba(0, 0, 0.2, 0.7)), url("bg-image.png") no-repeat center / cover;
+}
 
+.first .content {
+    width: 100%;
+    height: 100%;
+}
 
+.first .content .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.first .content .left .content {
+    text-align: left;
+    margin: 10% auto auto auto;
+    width: 600px;
+}
+
+.first .content .left .content button {
+    padding: 12px 48px;
+    background-color: #F9B900;
+    text-align: center;
+    margin-top: 62px;
+
+    color: #202D3D;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.first .content .left .content h2,
+p {
+    text-align: left;
+}
+
+.first .content .left .content h2 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 39px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.first .content .left .content p {
+    color: #DFDFDF;
+
+    /* H4 - MEDIUM */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.first .content .right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+
+.first .content .right .content {
+    width: 392px;
+    padding: 48px 32px;
+    height: auto;
+    margin: auto 82px auto auto;
+    text-align: center;
+    background: linear-gradient(180deg, #050E19 0%, rgba(5, 14, 25, 0.12) 100%);
+}
+
+.first .content .right .content hr {
+    margin: 24px 0;
+}
+
+.first .content .right .content div {
+    text-align: start;
+}
+
+.first .content .right .content div h3 {
+    color: #FFF;
+
+    /* H4 - MEDIUM */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.first .content .right .content div p {
+    color: #DFDFDF;
+    margin-top: 8px;
+
+    /* 16PX SEMIBOLD */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
 
 
