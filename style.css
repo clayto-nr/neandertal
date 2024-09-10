@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.anteriores{
+    height: 476px;
+}
+
+.anteriores-top{
+    margin-bottom: 260px;
+    padding: 0px 50px 0px 50px;
+}
+
+.anteriores-top h2{
+    padding-top: 80px;
+    color: #4E5D69;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.anteriores-top p{
+    padding-top: 20px;
+    color: #98A0A9;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.anteriores-card{
+    display: inline;
+    position: relative;
+    bottom: 220px;
+    padding: 0px 50px 0px 50px;
+}
+
+.anteriores-card .cardA{
+    display: block;
+    float: left;
+    padding: 10px 10px;
+    height: 157px;
+    width: 129px;
+    color: #FFF;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    margin-right: 25px;
+}
+
+.anteriores-card .cardA .number{font-size: 36px;}
+
+.anteriores-card .cardA h3{
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.anteriores-card .card1{background-color: #24C947;}
+
+.anteriores-card .card2{background-color: #263645;}
+
+.anteriores-card .card3{
+    background-color: #D3DDE6;
+    color: #263645;
+}
+
+.anteriores-bottom{
+    text-align: center;
+    height: 55px;
+    background-color: #263645;
+}
