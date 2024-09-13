@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+html, body {
+    width: 100%;
+}
+
 body{
+    margin: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
@@ -10,7 +15,6 @@ body{
 }
 
 .anteriores-top{
-    margin-bottom: 260px;
     padding: 0px 50px 0px 50px;
 }
 
@@ -27,27 +31,20 @@ body{
     color: #98A0A9;
     font-size: 20px;
     font-weight: 300;
-    margin: 0;
-    margin-bottom: 80px;
 }
 
 .anteriores-card{
-    display: inline;
-    position: relative;
-    bottom: 220px;
     padding: 0px 50px 0px 50px;
 }
 
 .anteriores-card .cardA{
-    display: block;
-    float: left;
-    padding: 10px 10px;
+    display: inline-block;
+    padding: 20px;
     height: 157px;
     width: 129px;
     color: #FFF;
     border-radius: 5px;
-    margin-bottom: 80px;
-    margin-right: 25px;
+    margin-right: 18px;
 }
 
 .anteriores-card .cardA .number{font-size: 36px;}
@@ -67,7 +64,8 @@ body{
 }
 
 .anteriores-bottom{
-    text-align: center;
-    height: 55px;
+    color: #FFF;
     background-color: #263645;
+    padding: 2px;
+    text-align: center;
 }
