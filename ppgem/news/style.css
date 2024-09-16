@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.top-new h2 {
+    color: #2471B5;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.top-new p {
+    color: gray;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.container-inter {
+    display: flex;
+    width: 100%;
+    max-width: 844px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.container {
+    display: flex;
+    padding: 24px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-new {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pesquisa {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    gap: 8px;
+    border: 1px solid #8D9AA6;
+    padding: 8px;
+    color: #8D9AA6;
+    background: #FFF;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    color: inherit;
+}
+
+.top-new h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gp-top-new {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.filtros{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.filtro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: -8px;
+
+    button{
+        display: flex;
+        padding: 4px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 6px;
+        border: 1px solid #2471B5;
+        background-color: transparent;
+        color: #2471B5;
+    }
+
+    span{
+        position: relative;
+        bottom: -6px;
+        display: flex;
+        padding: 4px 8px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        border: 1px solid #2471B5;
+        background: #FFF;
+        color: #2471B5;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+
+    }
+}
+
+h2 {
+    color: #2471B5;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.news hr {
+    width: 100%;
+}
+
+.news h3 {
+    color: #3C4B58;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.card-new span {
+    color: #77828C;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-new {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+}
+
+.locate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.locate button {
+    width: 40px;
+    height: 40px;
+    padding: 5px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #2471B5;
+    background-color: transparent;
+    color: #2471B5;
+    font-size: 14px;
+}
+
+.locate .full {
+    background-color: #2471B5;
+    color: white;
+}
+
+.filtro .fa {
+    margin-right: 5px;
+    color: #2471B5;
+}
