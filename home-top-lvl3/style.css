@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+.all{
+    padding: 40px 180px 40px 180px;
+}
+
+.section1{
+    background-color: rgb(236, 236, 236);
+    overflow: hidden;
+    padding: 40px 0px 40px 0px;
+}
+
+.section1 .palestra{
+    float: left;
+    width: 40%;
+    margin-right: 2%;
+}
+
+.palestra img {
+    width: 100%;
+    display: block;
+}
+
+.section1 .cards {
+    padding-top: 50px;
+    display: inline-block;
+    width: 30%;
+}
+
+.cardzin {
+    height: 60px;
+    padding: 1px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.section2{
+    padding: 40px 0px 40px 0px;
+}
+
+.section2 .logo{
+}
