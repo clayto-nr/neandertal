@@ -5,14 +5,13 @@ body{
     box-sizing: border-box;
 }
 
-.all{
+.all, .section3{
     padding: 40px 180px 40px 180px;
 }
 
 .section1{
-    background-color: rgb(236, 236, 236);
     overflow: hidden;
-    padding: 40px 0px 40px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .section1 .palestra{
@@ -21,28 +20,76 @@ body{
     margin-right: 2%;
 }
 
-.palestra img {
+.palestra{
     width: 100%;
     display: block;
 }
 
 .section1 .cards {
-    padding-top: 50px;
     display: inline-block;
+    padding: 66px 0px 0px 160px;
     width: 30%;
 }
 
 .cardzin {
-    height: 60px;
-    padding: 1px;
-    background-color: #ffffff;
+    height: 90px;
+    padding: 10px 0px 0px 1px;
+    background-color: whitesmoke;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
+    color: blue;
+    border-radius: 3px;
 }
 
 .section2{
     padding: 40px 0px 40px 0px;
 }
 
-.section2 .logo{
+.section2 .logo{text-align: center;}
+
+.section2 h3{text-align: center;}
+
+.section2 h3{
+    color: rgb(39, 106, 231);
+    font-size: 28px;
+}
+
+.section2 p{
+    text-align: left;
+    padding-left: 480px;
+    font-size: 18px;
+}
+
+.section2 a{
+    text-align: left;
+    padding-left: 480px;
+    font-size: 18px;
+}
+
+.section2 .nome-container{
+    margin-top: 42px;
+    text-align: center;
+}
+
+.section2 .nomezin{
+    display: inline;
+    padding: 6px 12px;
+    border-radius: 3px;
+    color: rgb(39, 106, 231);
+    border: 1px solid rgb(39, 106, 231);
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.section3 h2, h3{
+    color: rgb(39, 106, 231);
+}
+
+.section3 span{
+    font-weight: 400;
+}
+
+.section3 .cards-grandes{
+    background-color: whitesmoke;
+    text-align: left;
 }
