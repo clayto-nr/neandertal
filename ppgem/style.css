@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.top-new h2 {
+    color: #2471B5;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.top-new p {
+    color: gray;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.container-inter {
+    display: flex;
+    width: 100%;
+    max-width: 844px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.container {
+    display: flex;
+    padding: 24px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-new {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pesquisa {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    gap: 8px;
+    border: 1px solid #8D9AA6;
+    padding: 8px;
+    color: #8D9AA6;
+    background: #FFF;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    color: inherit;
+}
+
+.top-new h3 {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gp-top-new {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+}
+
+.filtros {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.filtro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: -8px;
+}
+
+.filtro button {
+    display: flex;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid #2471B5;
+    background-color: transparent;
+    color: #2471B5;
+}
+.filtro .bg-filtro {
+    background-color: #2471B5;
+    color: #FFF;
+}
+
+h2 {
+    color: #2471B5;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.news {
+    display: block;
+    width: 100%;
+}
+
+.news h2 {
+    font-weight: 700;
+}
+
+.news .card {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.news .card .left {
+    text-align: center;
+    float: left;
+    padding: 30px;
+}
+
+.news .card .right {
+    text-align: left;
+}
+
+
+
+
+
+
+.filtro .fa {
+    margin-right: 5px;
+    color: #2471B5;
+}
